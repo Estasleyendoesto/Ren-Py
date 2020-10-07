@@ -3,7 +3,7 @@
 > Custom Scripts
 
 ## Guardar las variables que Ren'Py no hace
-> `Save_variables.rpy`
+> `save-example.rpy`
 
 Ren'Py solo guarda aquellas variables cuyos valores han sido actualizados dentro de **label**. Pero cuando cambiamos el valor de una variable dentro de un screen, Ren'Py no los toma en cuenta y se queda con el último valor que almacenó dentro de un label.
 
