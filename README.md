@@ -28,5 +28,6 @@ init python:
  $ update()
 ```
 
+
 ## Extender la clase Character()
 próximamente...
