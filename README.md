@@ -2,6 +2,12 @@
 
 > Custom Scripts
 
+## Varios imagemaps simultáneamente
+> `multi-imagemap.rpy & images (multi-imagemap)`
+
+Puede surgir la necesidad de mostrar varios imagemaps dentro de una misma pantalla, la mejor forma es establecer las imágenes con transparencia y especificar dentro de imagemap el comando **`alpha True`**. De esta forma podrán compartir pantalla. Tener en cuenta que debemos de mostrar un screen para cada imagemap y uno de ellos debe ser llamado mediante **`call`** y el resto con **`show`**
+
+
 ## Guardar las variables que Ren'Py no hace
 > `save-example.rpy`
 
