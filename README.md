@@ -39,6 +39,6 @@ init python:
 ## Extender la clase Character
 > `customchar.rpy`
 
-Más de uno ha intentado que sus personajes tengan otra información personal, y de ser posible sus propios métodos. Destripando un poco el código fuente de Ren'Py he ideado una solución que no me ha causado ningún problema y es la de crear una clase CustomChar() que herede de ADVCharacter. Pues la función Character() llama directamente a ADVCharacter.
-Recordar que los personajes dejaremos de declararlos con define y en su lugar con default, pues dejarán de ser constantes. Creo que es una solución más ideal a la de crear una clase CharData() y tener dos objetos que apuntan a un mismo personaje.
-Podríamos crear una clase Player() que herede de ADVCharacter y otra de CustomChar() para los personajes. Siendo un poco más ambiciosos, podemos hacer que cualquier personaje sea jugable y no únicamente el protagonista. 
+Más de uno ha intentado que sus personajes tengan alguna información personal adicional, y de ser posible sus propios métodos. Destripando un poco el código fuente de Ren'Py he ideado una solución que no me ha causado ningún problema y es la de crear una clase **CustomChar()** que herede de **ADVCharacter**. Pues la función Character() llama directamente a ADVCharacter.
+Recordar que los personajes dejaremos de declararlos con define y en su lugar con **default**, pues dejarán de ser constantes. Creo que es una solución más ideal a la de crear una clase CharData() y tener dos objetos que apuntan a un mismo personaje.
+Podríamos crear una clase **Player()** que herede de ADVCharacter y otra de CustomChar() para los personajes. Siendo un poco más ambiciosos, podemos hacer que cualquier personaje sea jugable y no únicamente el protagonista. 
