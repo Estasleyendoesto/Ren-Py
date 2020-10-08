@@ -43,4 +43,4 @@ Más de uno ha intentado que sus personajes tengan alguna información personal 
 
 Recordar que los personajes dejaremos de declararlos con define y en su lugar con **default**, pues dejarán de ser constantes. Creo que es una solución más ideal a la de crear una clase CharData() y tener dos objetos que apuntan a un mismo personaje.
 
-Podríamos crear una clase **Player()** que herede de ADVCharacter y otra de CustomChar() para los personajes. Siendo un poco más ambiciosos, podemos hacer que cualquier personaje sea jugable y no únicamente el protagonista. 
+Podríamos crear una clase **Player()** exclusiva para el jugador y otra de CustomChar() para los personajes. Siendo un poco más ambiciosos, podemos hacer que cualquier personaje sea jugable y no únicamente el protagonista. 
