@@ -43,7 +43,7 @@ init python:
             
         # Tus propios métodos de jugador...
     
-          
+# Puede que los colores estén mal :/    
 default eileen = CustomChar('Eileen', color='#f2435b', age=21, height=1.68, description='Vivía bajo un puente hasta que se aburrió')
 default player = Player('Euclides', color='#c3235d', age=99, height=3.40, description='Se perdió de regreso a casa y conoció a Eileen')
 
